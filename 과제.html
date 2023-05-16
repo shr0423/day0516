@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            width: 700px;
+            height: 600px;
+            background: gray;
+        }
+
+        #snail {
+            width: 100%;
+            height: 100px;
+            background: black;
+        }
+
+        #bg {
+            width: 100%;
+            height: 500px;
+            background: pink;
+        }
+
+        button {
+            width: 80px;
+            height: 80px;
+        }
+
+        #red {
+            background: red;
+        }
+
+        #orange {
+            background: orange;
+        }
+
+        #yellow {
+            background: yellow;
+        }
+
+        #green {
+            background: green;
+        }
+
+        #blue {
+            background: blue;
+        }
+
+        #navy {
+            background: navy;
+        }
+
+        #purple {
+            background: purple;
+        }
+    </style>
+    <script>
+
+        function background() {
+            let red = document.getElementById("red");
+            red.addEventListener("click", function () {
+                //bg라는 div에 배경색을 빨간색으로
+                //문서내에 bg라는 div를 접근
+                let bg = document.getElementById("bg");
+                bg.style.background = "red";
+                console.log("bg");
+            });
+
+            let orange = document.getElementById("orange");
+            orange.addEventListener("click", function () {
+                //bg라는 div에 배경색을 빨간색으로
+                //문서내에 bg라는 div를 접근
+                let bg = document.getElementById("bg");
+                bg.style.background = "orange";
+                console.log("bg");
+            });
+
+            let yellow = document.getElementById("yellow");
+            yellow.addEventListener("click", function () {
+                //bg라는 div에 배경색을 빨간색으로
+                //문서내에 bg라는 div를 접근
+                let bg = document.getElementById("bg");
+                bg.style.background = "yellow";
+                console.log("bg");
+            });
+
+            let green = document.getElementById("green");
+            green.addEventListener("click", function () {
+                //bg라는 div에 배경색을 빨간색으로
+                //문서내에 bg라는 div를 접근
+                let bg = document.getElementById("bg");
+                bg.style.background = "green";
+                console.log("bg");
+            });
+
+            let blue = document.getElementById("blue");
+            blue.addEventListener("click", function () {
+                //bg라는 div에 배경색을 빨간색으로
+                //문서내에 bg라는 div를 접근
+                let bg = document.getElementById("bg");
+                bg.style.background = "blue";
+                console.log("bg");
+            });
+
+            let navy = document.getElementById("navy");
+            navy.addEventListener("click", function () {
+                //bg라는 div에 배경색을 빨간색으로
+                //문서내에 bg라는 div를 접근
+                let bg = document.getElementById("bg");
+                bg.style.background = "navy";
+                console.log("bg");
+            });
+
+            let purple = document.getElementById("purple");
+            purple.addEventListener("click", function () {
+                //bg라는 div에 배경색을 빨간색으로
+                //문서내에 bg라는 div를 접근
+                let bg = document.getElementById("bg");
+                bg.style.background = "purple";
+                console.log("bg");
+            });
+
+        }
+
+
+    </script>
+</head>
+
+<body onLoad="background()">
+    <div id="wrapper">
+        <div id="snail">
+            <button id="red"></button>
+            <button id="orange"></button>
+            <button id="yellow"></button>
+            <button id="green"></button>
+            <button id="blue"></button>
+            <button id="navy"></button>
+            <button id="purple"></button>
+        </div>
+        <div id="bg">
+
+        </div>
+
+    </div>
+</body>
+
+</html>
